@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body {
+	background-color:#16a085;
+}
+.row {
+	height:800px;
+	background-color: #2ecc71;
+	width:700px;
+	margin-left:300px;
+}
+.pic_base {
+	height:30%;
+	background-color:#9b59b6;
+	background: url('spiderman.jpg');
+	background-size: cover;
+}
+#profile_pic {
+	border-radius:100%;
+	border: 2px solid #9b59b6;
+	box-shadow: 0 2px 2px black;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top:100px;
+	margin-left:20px;
+}
+#title {
+	position: absolute;
+	font-family: verdana;
+	margin-left:300px;
+	margin-top:200px;
+	color:#ecf0f1;
+	font-family: 'Merriweather', serif;
+}
+#Me {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 150px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+ul {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 200px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+#Bio {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 300px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+#content {
+	padding-top:350px;
+	padding-left:10px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+.button1 {
+	font-weight:bold;
+    position:absolute;
+    margin-top:-550px;
+	-webkit-transition: all 0.5s;
+	-webkit-border-radius: 5px;
+	line-height: 50px;
+	color:#f1c40f;
+	background:#2ecc71;
+	width:200px;
+	text-align:center;
+	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
+			   0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+.button2 {
+	font-weight:bold;
+	position:absolute;
+	margin-top:-450px;
+	-webkit-transition: all 0.5s;
+	-webkit-border-radius: 5px;
+	line-height: 50px;
+	color:#f1c40f;
+	background:#2ecc71;
+	width:200px;
+	text-align:center;
+	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
+			   0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+.button3 {
+	font-weight:bold;
+	position:absolute;
+	margin-top:-350px;
+	-webkit-transition: all 0.5s;
+	-webkit-border-radius: 5px;
+	line-height: 50px;
+	color:#f1c40f;
+	background:#2ecc71;
+	width:200px;
+	text-align:center;
+	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
+			   0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+.button1:hover {
+	color:#2ecc71;
+	background:#f1c40f;
+	cursor:pointer;
+}
+.button2:hover {
+	color:#2ecc71;
+	background:#f1c40f;
+	cursor:pointer;
+}
+.button3:hover {
+	color:#2ecc71;
+	background:#f1c40f;
+	cursor:pointer;
+}
