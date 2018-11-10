@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body {
+	background: url('free.png');
+	background-repeat: no-repeat;
+	background-size:1600px 1000px;
+	background-position: center;
+}
+.row {
+	height:800px;
+	width:1500px;
+	margin-left:0px;
+
+}
+.pic_base {
+	height:30%;
+	background-color:#9b59b6;
+	background: url('one.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+
+}
+#profile_pic {
+	border-radius:100%;
+	border: 2px solid #9b59b6;
+	box-shadow: 0 2px 2px black;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top:100px;
+	margin-left:20px;
+}
+
+#title {
+	position: absolute;
+	font-family: verdana;
+	margin-left:300px;
+	margin-top:200px;
+	color:#ecf0f1;
+	font-family: 'Merriweather', serif;
+}
+#Me {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 150px;
+	font-family: 'Merriweather', serif;
+	color:#ecf0f1;
+	font-weight: bold;
+}
+ul {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 200px;
+	font-family: 'Quicksand', sans-serif;
+	color:#ecf0f1;
+	font-weight: bold;
+}
+#Bio {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 300px;
+	font-family: 'Merriweather', serif;
+	color:#ecf0f1;
+	font-weight: bold;
+}
+#content {
+	padding-top:350px;
+	padding-left:10px;
+	font-family: 'Quicksand', sans-serif;
+	color:#ecf0f1;
+	font-weight: bold;
+}
+.button1 {
+	font-weight:bold;
+    position:absolute;
+    margin-top:-100px;
+	-webkit-transition: all 0.5s;
+	-webkit-border-radius: 0px;
+	line-height: 50px;
+	color:#ecf0f1;
+	background:#d63031;
+	width:200px;
+	text-align:center;
+	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
+			   0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+.button2 {
+	font-weight:bold;
+	position:absolute;
+	margin-top:-100px;
+	margin-left:200px;
+	-webkit-transition: all 0.5s;
+	-webkit-border-radius: 0px;
+	line-height: 50px;
+	color:#ecf0f1;
+	background:#d63031;
+	width:200px;
+	text-align:center;
+	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
+			   0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+
+.button1:hover {
+	color:#d63031;
+	background:#ecf0f1;
+	cursor:pointer;
+}
+.button2:hover {
+	color:#d63031;
+	background:#ecf0f1;
+	cursor:pointer;
+}
