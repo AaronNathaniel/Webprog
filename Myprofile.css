@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 body {
-	background-color:#16a085;
+	background: url('free.png');
+	background-repeat: no-repeat;
+	background-size:1600px 1000px;
+	background-position: center;
 }
 .row {
 	height:800px;
-	background-color: #2ecc71;
-	width:700px;
-	margin-left:300px;
+	width:1500px;
+	margin-left:0px;
+
 }
 .pic_base {
 	height:30%;
 	background-color:#9b59b6;
-	background: url('spiderman.jpg');
+	background: url('one.jpg');
 	background-size: cover;
+	background-repeat:no-repeat;
+
 }
 #profile_pic {
 	border-radius:100%;
@@ -37,6 +42,7 @@ body {
 	margin-left: 30px;
 	margin-top: 150px;
 	font-family: 'Merriweather', serif;
+	color:#ecf0f1;
 	font-weight: bold;
 }
 ul {
@@ -44,30 +50,33 @@ ul {
 	margin-left: 30px;
 	margin-top: 200px;
 	font-family: 'Quicksand', sans-serif;
+	color:#ecf0f1;
 	font-weight: bold;
 }
-#Bio {
+#Hello {
 	position: absolute;
 	margin-left: 30px;
 	margin-top: 300px;
 	font-family: 'Merriweather', serif;
+	color:#ecf0f1;
 	font-weight: bold;
 }
 #content {
 	padding-top:350px;
 	padding-left:10px;
 	font-family: 'Quicksand', sans-serif;
+	color:#ecf0f1;
 	font-weight: bold;
 }
 .button1 {
 	font-weight:bold;
     position:absolute;
-    margin-top:-550px;
+    margin-top:-100px;
 	-webkit-transition: all 0.5s;
-	-webkit-border-radius: 5px;
+	-webkit-border-radius: 0px;
 	line-height: 50px;
-	color:#f1c40f;
-	background:#2ecc71;
+	color:#ecf0f1;
+	background:#d63031;
 	width:200px;
 	text-align:center;
 	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
@@ -76,43 +85,27 @@ ul {
 .button2 {
 	font-weight:bold;
 	position:absolute;
-	margin-top:-450px;
+	margin-top:-100px;
+	margin-left:200px;
 	-webkit-transition: all 0.5s;
-	-webkit-border-radius: 5px;
+	-webkit-border-radius: 0px;
 	line-height: 50px;
-	color:#f1c40f;
-	background:#2ecc71;
+	color:#ecf0f1;
+	background:#d63031;
 	width:200px;
 	text-align:center;
 	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
 			   0px 0px 0px 1px rgba(0,0,0,0.1);
 }
-.button3 {
-	font-weight:bold;
-	position:absolute;
-	margin-top:-350px;
-	-webkit-transition: all 0.5s;
-	-webkit-border-radius: 5px;
-	line-height: 50px;
-	color:#f1c40f;
-	background:#2ecc71;
-	width:200px;
-	text-align:center;
-	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
-			   0px 0px 0px 1px rgba(0,0,0,0.1);
-}
+
+
 .button1:hover {
-	color:#2ecc71;
-	background:#f1c40f;
+	color:#d63031;
+	background:#ecf0f1;
 	cursor:pointer;
 }
 .button2:hover {
-	color:#2ecc71;
-	background:#f1c40f;
-	cursor:pointer;
-}
-.button3:hover {
-	color:#2ecc71;
-	background:#f1c40f;
+	color:#d63031;
+	background:#ecf0f1;
 	cursor:pointer;
 }
